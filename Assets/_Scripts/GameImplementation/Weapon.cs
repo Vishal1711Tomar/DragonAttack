@@ -7,6 +7,7 @@ public class Weapon: MonoBehaviour
     public Transform shootpoint;
     public Player player;
     public float timebtwshoot;
+  
 
 
     private float shoottime;
@@ -26,8 +27,10 @@ public class Weapon: MonoBehaviour
         {
             Instantiate(projectile, shootpoint.position, transform.rotation);
             shoottime = Time.time + timebtwshoot;
+  
         }
 
     }
+
 }
 

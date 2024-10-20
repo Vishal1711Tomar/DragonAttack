@@ -40,4 +40,12 @@ public class Player : MonoBehaviour
     {
         rb.MovePosition(rb.position + moveamount * Time.fixedDeltaTime);
     }
+    public void TakeDamage(int damageamt)
+    {
+        health -= damageamt;
+        if(health < 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 }

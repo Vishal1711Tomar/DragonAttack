@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3202729932424301901}
   - component: {fileID: 6735656229495519865}
   - component: {fileID: 47545049862523649}
-  - component: {fileID: 3757045831850529886}
+  - component: {fileID: 8396681171482196580}
   m_Layer: 0
   m_Name: Chakra
   m_TagString: Untagged
@@ -27,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234498604744397874}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 12.155363, y: 0.4994824, z: 0}
   m_LocalScale: {x: 0.45199, y: 0.45199, z: 0.45199}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3202729932424301901
 SpriteRenderer:
@@ -159,7 +159,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3757045831850529886
+--- !u!114 &8396681171482196580
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,11 +168,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1234498604744397874}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e84876cdc28a76c4ba8261da1ed9132a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d3f0cef07e2cc94aa07ba88035a8ac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  lifeTime: 1
+  lifetime: 2
   explosion: {fileID: 9099253111391467224, guid: f69f124a1c1025746baeeeadeac60210, type: 3}
   damage: 1
-  soundObject: {fileID: 6237973124355150664, guid: 023b4195da89e16449987ff7d2a8ae54, type: 3}
